@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="net.sopho_web-sopho-net_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>net.sopho.web.sopho.net.entities.TChapterImages</class>
+    <class>net.sopho.web.sopho.net.entities.TUnitLabel</class>
+    <class>net.sopho.web.sopho.net.entities.TBinaryContents</class>
+    <class>net.sopho.web.sopho.net.entities.TKeywords</class>
+    <class>net.sopho.web.sopho.net.entities.TAnnexGroups</class>
+    <class>net.sopho.web.sopho.net.entities.TMajorVersionNumbers</class>
+    <class>net.sopho.web.sopho.net.entities.TKeywordTranslations</class>
+    <class>net.sopho.web.sopho.net.entities.TApplicationLocks</class>
+    <class>net.sopho.web.sopho.net.entities.TDocuments</class>
+    <class>net.sopho.web.sopho.net.entities.TLabelBundles</class>
+    <class>net.sopho.web.sopho.net.entities.TChapterDescriptionsTrans</class>
+    <class>net.sopho.web.sopho.net.entities.TVersionComments</class>
+    <class>net.sopho.web.sopho.net.entities.TDocumentlangsAnnexlangs</class>
+    <class>net.sopho.web.sopho.net.entities.TAnnexes</class>
+    <class>net.sopho.web.sopho.net.entities.TMailMessages</class>
+    <class>net.sopho.web.sopho.net.entities.TChapterTitles</class>
+    <class>net.sopho.web.sopho.net.entities.TUnits</class>
+    <class>net.sopho.web.sopho.net.entities.TZipArchives</class>
+    <class>net.sopho.web.sopho.net.entities.TDocumentStructures</class>
+    <class>net.sopho.web.sopho.net.entities.TDocumentLanguages</class>
+    <class>net.sopho.web.sopho.net.entities.TChapterContents</class>
+    <class>net.sopho.web.sopho.net.entities.TPrintableDocuments</class>
+    <class>net.sopho.web.sopho.net.entities.TVersions</class>
+    <class>net.sopho.web.sopho.net.entities.TExternalLinks</class>
+    <class>net.sopho.web.sopho.net.entities.TAnnexLanguages</class>
+    <class>net.sopho.web.sopho.net.entities.TApplicationStates</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
+      <property name="javax.persistence.jdbc.user" value="ecompanion"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="ecompanion"/>
+    </properties>
+  </persistence-unit>
+</persistence>
